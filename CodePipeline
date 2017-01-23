@@ -1,0 +1,17 @@
+
+
+Code Pipeline
+
+Source Files    CodeCommit, S3, GitHub
+     |
+   Build        Jenkins
+     |
+ Deployment     CodeDeploy
+     |
+  Testing       Testers, EC2
+Environment     Apica, Solano
+     |
+ Deployment     CodeDeploy
+     |
+ Production     EC2, Customers
+ Environment
