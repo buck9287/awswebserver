@@ -9,9 +9,13 @@ Source Files    CodeCommit, S3, GitHub
  Deployment     CodeDeploy
      |
   Testing       Testers, EC2
-Environment     Apica, Solano
+Environment     BlazeMeter, Apica, Solano
      |
  Deployment     CodeDeploy
+     |
+   Invoke       Trigger a Lambda function
+     |
+  Approve       Human approval 
      |
  Production     EC2, Customers
  Environment
