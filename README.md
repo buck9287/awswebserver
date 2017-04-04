@@ -1,2 +1,1 @@
-- AWS - use free tier for your account.
-- basic site infrastructure (Wordpress): use VPC, EC2, RDS services.
+basic site infrastructure (Wordpress) using VPC, EC2, RDS services.
