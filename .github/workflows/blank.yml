@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, ${env.myvar1}!
+        run: echo Hello, ${{ vars.myvar1 }}!
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
